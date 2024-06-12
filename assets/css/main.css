@@ -1,0 +1,75 @@
+body{
+    /* background-color: rgb(5, 5, 48); */
+    background-color: rgb(39, 39, 41);
+    color: white;
+}
+
+section{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* PRIMARY BUTTON */
+
+.btn-primary {
+	color: #fff;
+	background: transparent;
+	border: 2px solid white;
+	height: 42px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.btn-primary:hover {
+	color: black;
+    background: white;
+    border: 2px solid white;
+	/* background: linear-gradient(0deg, rgba(33, 37,pp 41, 0.2), rgba(33, 37, 41, 0.2)),
+	linear-gradient(89.85deg, #A6292E 0.11%, #ED1C24 99.87%); */
+}
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+	color: #fff;
+	/* box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5); */
+	/* background: linear-gradient(0deg, rgba(33, 37, 41, 0.4), rgba(33, 37, 41, 0.4)),
+	linear-gradient(89.85deg, #A6292E 0.11%, #ED1C24 99.87%); */
+}
+
+/* SECONDARY BUTTON */
+
+.btn-secondary {
+	color: #212529;
+	height: 42px;
+	border: 1px solid #212529;
+	background-color: transparent;
+	font-size: 14px;
+	font-weight: bold;
+}
+.btn-secondary:hover {
+	color: #212529;
+	background: #2125291A;
+}
+.btn-check:focus + .btn-secondary,
+.btn-secondary:focus {
+	color: #212529;
+	background: #21252933;
+	/* box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5); */
+}
+
+/* SKILL CARD */
+
+.skill_card{
+	display: inline-block;
+	background-color: rgb(39, 39, 41);
+	border: 1px solid wheat;
+	width: 200px;
+	height: 50px;
+	margin: 5px 10px;
+	padding: 10px;
+}
+.skill_card:hover{
+	background-color: rgb(80, 80, 82);
+}
+
+.skill_card label{
+	padding-left: 5px;
+}
