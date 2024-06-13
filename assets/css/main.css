@@ -91,12 +91,13 @@ section{
 	padding: 10px;
 }
 .project_card:hover{
-	background-color: var(--gray-color)
+	background-color: var(--hover-color)
 }
 
 .project_card img{
 	width: 100%;
 	height: 190px;
+	margin-bottom: 10px;
 }
 
 .project_card label{
