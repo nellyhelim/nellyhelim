@@ -19,9 +19,10 @@ section{
 
 .btn-primary {
 	color: #fff;
-	background: transparent;
-	border: 2px solid white;
-	height: 42px;
+	background: orange;
+	/* border: 2px solid white; */
+	border: 2px solid orange;
+	height: 40px;
 	font-size: 14px;
 	font-weight: bold;
 }
